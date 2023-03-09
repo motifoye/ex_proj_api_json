@@ -1,0 +1,88 @@
+html,body{
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#content{
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+/* POST */
+
+.post{
+    display: flex;
+    margin: 1rem;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* REACTION */
+
+.reaction_block{
+    display: flex;
+    flex-direction: column;
+    
+    width: 6rem;
+    padding-top: 1rem;
+    border-right: 2px solid #bbb;
+}
+.reaction_block input{
+    margin: 0rem auto;
+    font-weight: 500;
+    color: #999;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.reaction_block input:hover{
+    color: red;
+}
+.reaction{
+    margin: 0.5rem auto;
+    font-weight: 500;
+    color: #999;
+}
+
+
+/* POST CONTENT */
+
+.post_content{
+    width: 100rem;
+    margin: 0 1rem;
+}
+.tag{
+    display: inline;
+    background-color: #eee;
+    color: #999;
+    font-weight: bolder;
+    margin-inline-end: 1em;
+    padding: 0.2em 1.2em;
+    border-radius: 1em;
+}
+.tags{
+    height: 3rem;
+    margin-top: 2rem;
+}
+.comments{
+    border-top: 2px solid #ddd;
+}
+.comment{
+    margin: 1rem 0;
+}
+.comment b{
+    margin: 0;
+    padding: 0;
+}
+.comment p{
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid #ddd;
+    margin-top: 0.6rem;
+    padding-left: 0.6rem;
+}
